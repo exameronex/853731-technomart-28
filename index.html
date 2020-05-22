@@ -13,7 +13,10 @@
         <img src="img/logo-technomart.svg" width="108" height="18"
           alt="Логотип интернет-магазина «Техномарт»">
       </a>
-      <span>Поиск:</span>
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <label for="search" class="visually-hidden">Поле для поиска:</label>
+        <input id="search" type="search" name="search" placeholder="Поиск:">
+      </form>
       <a href="">Закладки: 0</a>
       <a href="">Корзина: 0</a>
       <a href="">Оформить заказ</a>
@@ -47,7 +50,7 @@
   </header>
 
   <main>
-    <h1>Интернет-магазина «Техномарт»</h1>
+    <h1 class="visually-hidden">Интернет-магазина «Техномарт»</h1>
 
     <div>
       <ul>
@@ -277,6 +280,21 @@
 
   <section>
     <h2>Личный кабинет</h2>
+    <form action="https://echo.htmlacademy.ru" method="post">
+      <p>
+        <label for="login-name">Ваше имя:</label>
+        <input id="login-name" type="text" name="name" placeholder="Имя Фамилия">
+      </p>
+      <p>
+        <label for="login-email">Ваш e-mail:</label>
+        <input id="login-email" type="email" name="email" placeholder="email@example.com">
+      </p>
+      <p>
+        <label for="login-text">Текст письма:</label>
+        <textarea name="text" id="login-text">В свободной форме</textarea>
+      </p>
+      <button type="submit">Оформить заказ</button>
+    </form>
     <button type="button">Закрыть</button>
   </section>
 
