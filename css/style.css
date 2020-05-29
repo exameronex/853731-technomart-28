@@ -110,6 +110,10 @@ img {
   background-color: var(--active);
 }
 
+.header-middle {
+  background-color: var(--basic-background);
+}
+
 .store-description {
   color: var(--basic-red);
   font-style: italic;
@@ -119,6 +123,7 @@ img {
 
 .phone {
   color: var(--basic-red);
+  border: 3px solid var(--white);
   font-weight: bold;
   font-size: 21px;
   line-height: 30px;
@@ -133,7 +138,7 @@ img {
   color: var(--black);
   font-size: 21px;
   line-height: 21px;
-  background: rgba(0, 0, 0, 0.0001);
+  background: var(--white);
 }
 
 .user-navigation a:hover,
@@ -269,6 +274,7 @@ img {
   font-size: 21px;
   line-height: 21px;
   color: var(--black);
+  background: var(--white);
 }
 
 .user-order,
