@@ -1,7 +1,5 @@
 # Личный проект «Техномарт»
 
-* Студент: [Сабиев Аслан](https://up.htmlacademy.ru/htmlcss/28/user/853731).
-* Наставник: [Михаил Воробьев](https://htmlacademy.ru/profile/dontliem1).
 
 ---
 
